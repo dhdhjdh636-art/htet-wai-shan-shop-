@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="my">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HWS Top Up — MLBB Diamonds</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="nav"><div class="brand">HWS <span>Top Up</span></div><div class="pill">MLBB Diamonds</div></div></header>
+<section class="hero"><h1>Mobile Legends: Bang Bang</h1><p>Diamond package ရွေးပြီး Player ID / Server ID ဖြည့်ကာ Order တင်ပါ။</p></section>
+<main class="wrap">
+<section class="card">
+<h2>1. Player Information</h2>
+<div class="grid">
+<label>Player ID<input id="player" inputmode="numeric" placeholder="ဥပမာ 123456789"></label>
+<label>Server ID<input id="server" inputmode="numeric" placeholder="ဥပမာ 1234"></label>
+</div>
+<h2>2. Choose Diamonds</h2>
+<div class="packages" id="packages">
+<button data-name="5 Diamonds" data-price="649">💎 5 Diamonds <b>649 Ks</b></button>
+<button data-name="11 Diamonds" data-price="1183">💎 11 Diamonds <b>1,183 Ks</b></button>
+<button data-name="22 Diamonds" data-price="2320">💎 22 Diamonds <b>2,320 Ks</b></button>
+<button data-name="56 Diamonds" data-price="6235">💎 56 Diamonds <b>6,235 Ks</b></button>
+<button data-name="86 Diamonds" data-price="6773">💎 86 Diamonds <b>6,773 Ks</b></button>
+</div>
+<h2>3. Payment</h2>
+<div class="payments">
+<div><strong>KPay</strong><br>Daw Kyu Kyu<br><b>09 678 388 512</b></div>
+<div><strong>Wave Money</strong><br>War War Myint<br><b>09 678 388 512</b></div>
+</div>
+<div class="notice">ငွေပေးချေမှုကို မိဘ/အုပ်ထိန်းသူ၏ခွင့်ပြုချက်ဖြင့်သာ ဆောင်ရွက်ပါ။ ငွေလွှဲပြီးနောက် Order တင်ရန် အောက်ပါခလုတ်ကိုနှိပ်ပါ။</div>
+<button class="order" id="orderBtn">🛒 Order တင်မယ်</button><div id="status" class="status"></div>
+</section>
+<aside class="summary"><h2>Order Summary</h2><p>Player ID <b id="sPlayer">—</b></p><p>Server ID <b id="sServer">—</b></p><p>Package <b id="sPackage">မရွေးရသေး</b></p><p class="total">Total <b id="sTotal">—</b></p></aside>
+</main>
+<footer>© HWS Top Up — MLBB Diamonds</footer>
+<script src="script.js"></script>
+</body></html>
